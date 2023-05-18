@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact us</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+    <style>
+
+		.campo {
+			display: flex;
+			align-items: center;
+		}
+
+	</style>
+    
+</head>
+<body>
+	<div class="container">
+		<form action="" method="">
+			
+				<h2>Inscrição</h2>
+
+				<input type="text" name="nome" id="nome" placeholder="Nome">
+
+				<input type="email" name="email" id="email" placeholder="E-mail">
+
+				<input type="tel" name="tel" id="tel" placeholder="Telefone">
+
+                <input type="password" id="senha" name="senha" placeholder="Senha">
+
+                <hr>
+                <br>
+                <div style="text-align: left">
+                    <label for="idade" >Data de nascimento</label>
+                    <input type="date" name="idade" id="idade">
+
+                    <label for="file">Comprovante de Residência</label>
+                    <input type="file" name="idfile" id="file">
+
+                    <label for="selecao">Qual o seu curso?</label>
+                    <br>
+                    <br>
+                    <select name="selecao" id="selecao">
+                        <option value="html">Html</option>
+                        <option value="css">CSS</option>
+                        <option value="js">Js</option>
+                    </select>
+                    <br>
+                    <br>
+                    
+
+                    <label><strong>Gênero:</strong></label>
+                    <div class="campo">
+                    
+                        <label>
+                            Masculino<input type="radio">
+                        </label>
+                        <label>
+                            Feminino
+                            <input type="radio">
+                        </label>
+                        <label>
+                            Outro
+                            <input type="radio">
+                        </label>
+                    </div>
+
+                    <label for="obs">Observações</label>
+                    <br>
+                    <textarea placeholder="Message" class="field" id="obs" name="obs"></textarea>
+                </div>
+				<button type="submit">Enviar</button>
+                
+            
+            </form>
+	</div>
+</body>
+</html>
