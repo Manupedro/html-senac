@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>Projeto formulário</title>
+	</head>
+	<body>
+		<h1 style="text-align: center;">Contrato</h1>
+
+		<form action="resultado.html">
+
+			<div style="padding: 15px;">
+				<h2>Dados do contratado</h2>
+
+				<label for="contratado">Contratado:</label>
+				<input id="contratado" type="text" size="50" required />
+
+				<br/><br/>
+
+				<label for="cnpj">CNPJ:</label>
+				<input id="cnpj" type="text" size="50" />
+
+				<br/><br/>
+
+				<label for="endereco">Endereço:</label>
+				<textarea id="endereco" rows="10" cols="50"></textarea>
+			</div>
+
+			<h2>Dados do contratante</h2>
+
+			<label for="contratante">Contratante:</label>
+			<input id="contratante" type="text" size="50" />
+
+			<br/><br/>
+
+			<label for="cpf">CPF:</label>
+			<input id="cpf" type="number" size="11" />
+
+			<br/><br/>
+
+			<label for="telefone">Telefone:</label>
+			<input id="telefone" type="tel" size="15" />
+
+			<br/><br/>
+
+			<label for="nasc">Data de nascimento:</label>
+			<input id="nasc" type="date" size="15" />
+
+			<br/><br/>
+
+			<label for="rg">Documento de identificação:</label>
+			<input id="rg" type="file" size="15" 
+				accept="application/pdf" />
+
+			<br/><br/>
+
+			<label for="genero">Gênero:</label>
+			<select id="genero">
+				<option>Masculino</option>
+				<option>Feminino</option>
+				<option>Outros</option>
+				<option>Não identificado</option>
+			</select>
+
+			<h2>Outras informações</h2>
+
+			<label>Você tira onda?</label>
+
+			<br/>
+			<input id="sim" name="tira_onda" type="radio" />
+			<label for="sim">Sim</label>
+
+			<br/>
+			<input id="nao" name="tira_onda" type="radio" />
+			<label for="nao">Não</label>
+
+			<br/><br/>
+
+			<label>Cursos:</label>
+
+			<br/>
+			<input id="op1" type="checkbox" />
+			<label for="op1">HTML e CSS</label>
+
+			<br/>
+			<input id="op2" type="checkbox" />
+			<label for="op2">Python Web</label>
+
+			<br/><br/>
+
+			<button type="button">Cancelar</button>
+			<button type="submit">Salvar</button>
+		</form>
+
+	</body>
+</html>
