@@ -2,6 +2,10 @@
 /*********************
 Body
 ************************/
+html, body, #home{
+	height: 100%;
+	overflow-x: hidden;
+}
 
 body{
 
@@ -14,7 +18,7 @@ body{
 Barra de Navegação
 *****************/
 
-.nav-transparente{
+nav.nav-transparente{
     padding: 15px 0px;
     background: rgba(0, 0, 0, 0.6);
 }
@@ -47,6 +51,7 @@ CARD: HOME
     color: white;
     border-radius: 500px;
     padding: 10px 20px;
+    text-transform: uppercase;
     -webkit-border-radius:500px;
 	-moz-border-radius:500px;
 
@@ -68,8 +73,6 @@ CARD: HOME
     
 
 }
-
-
 
 .capa{
     text-align: center;
