@@ -1,0 +1,177 @@
+:root{
+    --cor1: #7c26f8;
+      
+}
+/*********************
+Body
+************************/
+html, body, #home{
+	height: 100%;
+	overflow-x: hidden;
+}
+
+body{
+
+    background: url(imagens/capa.png), url(imagens/ruido.png), linear-gradient(to bottom, #ff4169, #7c26f8);
+    
+    background-attachment: fixed;
+    font-family: Helvetica, Arial, sans-serif;
+}
+/**************
+Barra de Navegação
+*****************/
+
+nav.nav-transparente{
+    padding: 15px 0px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: aquamarine;
+}
+
+.divisor{
+    background-color: white;
+    width: 1px;
+    margin: 12px 15px;
+}
+
+.btn-sem-broda{
+    border: none;
+}
+
+
+/*************
+CARD: HOME
+********************/
+
+
+.btn-customizado{
+    color: white;
+    border-radius: 500px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    -webkit-border-radius:500px;
+	-moz-border-radius:500px;
+
+
+    transition: background 0.4s, color 0.4s;
+
+
+}
+
+.btn-roxo{
+    background: #7c26f8;
+}
+
+.btn-branco{
+    border: 2px solid white;
+}
+.btn-branco:hover{
+    background-color: white;
+    
+
+}
+
+.capa{
+    text-align: center;
+}
+
+/*****************
+Estrutura de Conteúdos
+*****************/
+/*Seção serviços*/
+.caixa{
+    padding: 20px 0px;
+}
+#servicos{
+    background-color: white;
+}
+#servicos h2, h3{
+    color: var(--cor1);
+}
+.albuns{
+    padding: 10px 0px;
+}
+/*Recursos*/
+
+#recursos h2, #recursos p{
+    color: white;
+}
+
+#recursos h3{
+    color: #9bf0e1;
+}
+
+.rotacionar{
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+/****************
+Rodapé
+********************/
+footer{
+
+    background: black;
+    padding: 50px 15px 20px 15px;
+    position: relative;
+}
+
+footer h4{
+    font-size: 0.8em;
+    color: #919496;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav a{
+    color: white;
+    text-decoration: none;
+}
+
+footer .navbar-nav a:hover{
+    color: #9bf0e1;
+    font-size: 0.8em;
+}
+
+footer ul li{
+    float: right;
+    padding: 0px 10px;
+}
+
+
+/*********
+Tipografia
+*********/
+
+h1{
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: white;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 2.7em;
+    letter-spacing: -0.05em;
+}
+h3{
+    font-weight: 700;
+    font-size: 2em;
+    letter-spacing: -0.05em;
+    
+}
+
+
+
+
+
+
+
